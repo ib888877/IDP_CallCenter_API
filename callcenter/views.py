@@ -6,7 +6,6 @@ import csv
 from .serializers import BeneficiarySerializer
 
 class BeneficiarySearchView(APIView):
-    # … your authentication classes/mixins …
 
     def get(self, request):
         return Response(
